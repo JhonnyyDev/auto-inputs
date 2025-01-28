@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Checkbox 1 que llama a la función actualizarInputs al marcar o desmarcar -->
+    <label><input type="checkbox" id="check1" onclick="actualizarInputs()"> opciones 1 </label>
+    
+    <!-- Checkbox 2 que también llama a la función actualizarInputs -->
+    <label><input type="checkbox" id="check2" onclick="actualizarInputs()"> opciones 2 </label>
+    <br><br>
+    
+    <!-- Tres campos de texto donde se mostrarán los valores de los checkboxes -->
+    <input class="inputText" type="text" id="i1"><br>
+    <br>
+    <input class="inputText" type="text" id="i2">
+    <br><br>
+    <input class="inputText" type="text" id="i3">
+
+    <!-- Cargamos el archivo JS, pero lo ejecutamos después de que el HTML se cargue completamente -->
+    <script src="autoC.js"></script>
+</body>
+</html>
